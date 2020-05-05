@@ -1,0 +1,10 @@
+name: Wolf2789/Debug
+description: Debug utilities for Lua.
+version: 0.1
+author: 
+  - email: wolf2789@gmail.com
+    name: Dawid Bugajski
+autoload:
+  - type: global
+    name: debug
+    path: Debug.lua
