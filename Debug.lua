@@ -62,6 +62,7 @@ return setmetatable({
             end
         end
         io.write('\n')
+        io.flush()
     end,
 }, {
     __call = function(self, ...)
